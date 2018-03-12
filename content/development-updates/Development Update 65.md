@@ -22,21 +22,19 @@ Unit tests work for networking. It works locally. It works with multiple clients
 [skycoin.daemon:INFO] 111.250.149.229:23790 disconnected because: Read failed
 
 ##### To see list of connections do:
+
 http://skycoin-chompyz.c9.io/api/network/connections
 http://127.0.0.1:6420/api/network/connections
 
 ##### We are getting:
+
 - "no route to host"
 - "i/o timeout"
 - connection opens and version (first packet) is never sent
 - EOF when trying to read from socket
 
-Line 424, func (self *ConnectionPool) connectionReadLoop(conn *Connection) {
-
-That is the read loop
-https://github.com/skycoin/gnet/blob/master/pool.go
-
 ##### TCP/ip has bizarre error conditions. It is also forced in golang. We have
+
 - a listening go routine for each pool of sockets
 - a go routine for accepting new connections
 - two go routines per socket. a goroutine for reading from socket and a goroutine for sending over socket, with queues for messages
@@ -45,6 +43,7 @@ https://github.com/skycoin/gnet/blob/master/pool.go
 We have a full refactor and rewrite of daemon and networking, but cant use it because of other major refactoring, which is a bit exhausting. There is no way to do the refactor incrementally without introducing circular imports, which prevents compilation. I think I want to deprecate TCP/ip completely because it is too frustrating.
 
 ##### Also, we have other issues
+
 - running skycoin is disconnecting some people's VPN
 - skycoin appears to disconnecting some people's wifi connections
 

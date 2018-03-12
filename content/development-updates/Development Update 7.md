@@ -19,9 +19,10 @@ We are updating the Skywire protocol. This is the last thing on checklist before
 
 The Blob Replicator is done. Blob replicator is used for transaction replication and the emergency messaging system.
 
-- https://github.com/skycoin/skycoin/blob/master/src/sync/blob_replicator.go
+- https://github.com/skycoin/cxo
 
 ###### This uses a gossip protocol to replicate data among a swarm of peers:
+
 - A blob is a series of bytes. The id of a blob is its SHA256 hash
 - On connect a peer receives a list of all the hashes of the Blobs the peer has.
 - The client requests any blobs peers have that the local client doesnt have
@@ -30,17 +31,13 @@ The Blob Replicator is done. Blob replicator is used for transaction replication
 - Blobs are only replicated if they  are "valid" and the callback function judges validity
 
 ## Uses of blobs include:
+
 - Emergency messaging system (criteria: blobs contain valid signature)
 - Transactions (criteria: transactions must be valid and meet various criteria)
-
-Example of using Blob Replicator:
-https://github.com/skycoin/skycoin/blob/master/run.go
 
 ## Request Manager:
 
 Request manager is under development and almost done. Request Manager rate limits requests and is used to protect against DDoS and Sybil attacks.
-
-https://github.com/skycoin/skycoin/blob/master/src/sync/request_manager.go
 
 #### Request Manager:
 - Queues up requests for data and spreads them over times

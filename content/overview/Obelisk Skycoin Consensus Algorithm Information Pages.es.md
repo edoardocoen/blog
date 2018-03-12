@@ -15,8 +15,6 @@ author = "johnstuartmill"
 
 ![Obelisk El Algoritmo de Consenso de Skycoin](/img/obelisk-the-skycoin-consensus-algorithm.png)
 
-<!-- MarkdownTOC autolink="true" bracket="round" -->
-
 - [Puntos destacados acerca del consenso](#puntos-destacados-acerca-del-consenso)
     - [Por qué el consenso](#por-qué-el-consenso)
     - [Alta escalabilidad y bajo consumo de energía](#alta-escalabilidad-y-bajo-consumo-de-energía)
@@ -27,8 +25,6 @@ author = "johnstuartmill"
     - [Dos tipos de nodos: de Consenso y de Creación de Bloques](#dos-tipos-de-nodos-de-consenso-y-de-creación-de-bloques)
 - [Cómo funciona el Algoritmo de Consenso de Skycoin](#cómo-funciona-el-algoritmo-de-consenso-de-skycoin)
 - [Referencias](#referencias)
-
-<!-- /MarkdownTOC -->
 
 
 ## Puntos destacados acerca del consenso
@@ -148,4 +144,4 @@ for Consensus over P2P Network.
 *Leer más:*
 
 * *[Documentación Técnica del Algoritmo de Consenso de Skycoin](https://www.skycoin.net/whitepapers)*
-* *[Obelisk El Algoritmo de Consenso de Skycoin](/statement/obelisk-skycoin-consensus-algorithm/)*
+* *[Obelisk El Algoritmo de Consenso de Skycoin](/statement/obelisk-the-skycoin-consensus-algorithm/)*

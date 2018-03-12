@@ -18,12 +18,6 @@ Obelisk is what makes Skycoin, Bitcoin 2.0. Obelisk is a sustainable alternative
 
 Obelisk was inspired by academic research into adversarial distributed time-stamping and algorithms such as Ben-Or's, Paxos, and the Castro-Liskov PBFT algorithm. Obelisk is a new solution to the Byzantine Generals problem which offers strong mathematical security guarantees, even when the majority of nodes are hostile.
 
-## What is the Skycoin Darknet Project?
-
-The Darknet project is the first major Skycoin application.
-
-https://github.com/skycoin/darknet
-
 ## How does Obelisk Improve on Bitcoin:
 
 Obelisk and specific design decisions may allow Skycoin to achieve transaction confirmation times as low as four seconds, without compromising security.

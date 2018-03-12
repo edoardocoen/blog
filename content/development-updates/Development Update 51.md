@@ -11,18 +11,20 @@ categories = [
 ]
 description = "Release notes highlighting the current development behind Skycoin."
 +++
+
 We had a productive day yesterday. Some people were able to get builds working immediately. Other people had problems with golang and path issues we are working through.
 
 ##### We launched the blockchain after a few hours of work. Fixed half a dozen bugs.
+
 - Several changes to build script
 - Updated gvm curl build flags
 - Updated to go1.4
 - Fixed bug with genesis block timestamp not accepting configuration setting
-- Documentation here: https://piratepad.ca/p/skycoin
 - Improved transaction malleability (more on this later)
 - Fixed fprintf formatting bug in wallet names
 
 ##### Now:
+
 - I am refactoring /src/gui
 - The wallet format on disc is JSON. This avoids the dependency issues in Bitcoin's wallet storage format. However, it is not pretty printing the JSON, so fixing that.
 - Adding function for querying outputs for arbitrary addresses
@@ -35,10 +37,12 @@ Then we will live code the trading bot, test it with Bitcoin. Then start trading
 ## Skycoin: Transaction Malleability
 
 ###### A crypt-coin does two things:
+
 - Check balance
 - Send
 
 ###### So as an application, a coin is very boring by itself.
+
 - Ethereum tries to make it more exciting by adding new features and infrastructure.
 - Dogecoin tries to make it more exciting through marketing, memes and emphasis on the user community
 - Ripple tries to be something that is optimized to be purchased and controlled by Visa (all the consensus nodes controlled by banks and so on)
@@ -46,14 +50,17 @@ Then we will live code the trading bot, test it with Bitcoin. Then start trading
 - StoreJ adds a service offering to drive capital inflows into the coin
 
 ###### Skycoin has combinations of these:
+
 - A service offering
 - An application infrastructure and set of libraries. Ethereum is at one extreme of putting everything inside of the blockchain (a full turing complete language on the ledger). Skycoin is at that other extreme of putting nothing in the blockchain except coins and transactions (pushing contracts onto personal blockchain and off the main ledger).
 
 ###### More fundamental, the majority of the work and design in Skycoin so far has been on the extremely boring fundamentals of:
+
 - Check balance
 - Send
 
 ###### This may seem trivial but it is actually done poor by every existing coin:
+
 - Bitcoin's default client is unusable. People have coins stolen daily because they are forced to use insecure web-wallets over usability concerns.
 - Bitcoin is not easy to understand and people often lose coins because of differences between what it does and what they think it does (such as losing coins when loading a wallet from backup after 200 transactions).
 - Bitcoin's long term survival is not a matter of mathematics, but a matter of social institutions and the honesty of a small number of mining pools.
@@ -66,6 +73,7 @@ The inner details of Skycoin's blockchain design and it differs from Bitcoin onl
 
 
 ###### Overview of Skycoin/Bitcoin. Most people do not understand what a "transaction" is in Bitcoin.
+
 - There are unspent outputs. they contain coins.
 - A transaction consumes outputs
 - A transaction produces new outputs
@@ -85,9 +93,11 @@ You must spend a whole output. If there are 10 coins, the whole output is consum
 - The balance of the address is the number of coins in "unspent outputs" for that address
 
 Outputs are named by hashes. In Bitcoin a transaction might be identified as
+
 590f7f552aedb219ff814331201a97c3467b08d590016991c4d31dfdcd4b88ce
 
 The transaction may have three outputs.
+
 590f7f552aedb219ff814331201a97c3467b08d590016991c4d31dfdcd4b88ce:0
 590f7f552aedb219ff814331201a97c3467b08d590016991c4d31dfdcd4b88ce:1
 590f7f552aedb219ff814331201a97c3467b08d590016991c4d31dfdcd4b88ce:2
@@ -97,6 +107,7 @@ In Skycoin, there is an explicit output set. Outputs are actual data objects and
 ## Malleability
 
 Malleability means that someone can take a transaction and modify it, so that it is still valid but the hash is changed.
+
 - in Bitcoin, the output is named by the transaction hash
 - in Bitcoin, anyone can take a transaction and modify it, so that it is still valid but has a different hash. Even if they do not know the secret keys for any address for any of the inputs used in the transaction. This is non-intuitive and subtle but has implications in a crisis, such as a blockchain fork.
 
@@ -107,11 +118,13 @@ T3
 And each transaction spends, outputs created by an earlier transaction. Then if the hash of T2 is modified, transaction T3 becomes invalid. T3 is trying to spend an output that does not exist. This only becomes a problem in a blockchain fork or 51% attack scenario.
 
 ###### There are three levels transaction malleability
+
 - Anyone can modify anyone else's transaction output hashes, without being a party to the transaction. This is the level Bitcoin is at.
 - Any party to the transaction can modify the output hashes. At least one private key for an output address spent in the transaction is required.
 - The transaction outputs are mutable. A new transaction can be created, but the outputs cannot be changed by anyone. This is level enforced by Skycoin.
 
 ###### In the event of a major attack or blockchain fork on Bitcoin
+
 - Anyone can modify anyone else's bitcoin transactions when copying them to the fork of the chain. This will invalidate swaths of later transactions, which depend on the hashes of the now modified transactions. The scope for damages is unlimited and everyone performing transactions over the interval of the attack, will have unpredictable coin balances after the attack.
 
 ## Effect of Signature Malleability on Loss Ratio in Crisis Scenario
@@ -119,6 +132,7 @@ And each transaction spends, outputs created by an earlier transaction. Then if 
 A transaction invalidation attack, is any attack where a previously executed transaction is revocated and some of the outputs spend by the transaction are spent into different outputs. This only happens during blockchain reorgs, forks or other crisis scenarios.
 
 ## In Skycoin:
+
 - If the chain forks or an attack occurs (which should be impossible, but may occur anyways), then your transactions can always be copied from the old chain and executed on the new chain and the resulting balances will always be the same, as long as certain conditions are met.
 - Only chains of transactions that involve a malicious party, who specifically and intentionally spends a particular output to a different address on fork A than occurred on fork B affect final balances. If you did not transact with the malicious party and your outputs did not originate through a transaction chain involving the malicious party, your balances cannot be affected. The private key for spending at-least one input for a transaction is required to effect an attack on a particular transaction (which may affect later transactions).
 - A user can only perform this attack on transactions involving outputs whose addresses they control the private key for
@@ -133,6 +147,7 @@ A transaction invalidation attack, is any attack where a previously executed tra
 - The "quality" and "risk" of each received coin output can be calculated. An output generated from outputs, which are older or past the last immutability checkpoint, have significantly lower risk of invalidation in an attack than outputs which are dependent on large chains of transactions since the last checkpoint. Exchanges may require longer holding periods before releasing full balance for coins at higher risk.
 
 ###### This is extremely important. In a crisis, the number of users affected is limited:
+
 - Users which did not transaction during the crisis did not have their balances affected
 - Only a minority of users are affected or have changed balances, limiting scope for damage
 - The impact on the price of the coin is limited
@@ -143,6 +158,7 @@ A transaction invalidation attack, is any attack where a previously executed tra
 Transaction malleability has effects
 
 ###### In Skycoin, if an attack succeeds at introducing a fork then there are several remedies
+
 - The differing outputs between the chains will be limited
 - Cold store will be unaffected
 - Personal transactions between people or companies not involved in the attack will be unaffected
@@ -156,6 +172,7 @@ Transaction malleability has effects
 There are several steps to prevent it from getting this far, such as local timestamps, distributed timestamps.
 
 ###### In Bitcoin, if there is a fork:
+
 - Every transaction is up for revocation because of multiple forms of malleability. The victims will be random and potentially every transaction on the time interval of the attack.
 - Cold store will be unaffected
 - Personal transactions between people or companies will be affected if they spend the outputs (transaction malleability)

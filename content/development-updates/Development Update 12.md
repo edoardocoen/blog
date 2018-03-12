@@ -15,10 +15,7 @@ description = "Release notes highlighting the current development behind Skycoin
 
 ##### Current changes being worked on:
 - Wallet GUI is being fixed to use new RPC
-- New repo for wire protocol: https://github.com/skycoin/skywire
-
-**Example of Connection pool:** https://github.com/skycoin/skywire/blob/master/poolExample0.go
-**Example of Connection pool with message handler:** https://github.com/skycoin/skywire/blob/master/poolExample1.go
+- New repo for wire protocol: https://github.com/skycoin/net
 
 We are moving towards a **"service architecture"** for networking. You have a connection pool, which manages connections to multiple peers. Each peer is running multiple "services" they advertise. Services communicate over "channels" on a physical connection. Channel 0 is used for QoS, initiation, teardown and service metatadata.  Service peers are found through DHT (distributed hash table) and PEX (peer exchange).
 

@@ -86,8 +86,6 @@ YouTube（或其他视频上传网站）上发布一切关于天空币的视频�
 对于活跃的社区用户有特别的奖金：
 
 * 10 SKY - 100 [Skycoin subreddit](https://reddit.com/r/skycoinproject) 文章
-* 100 SKY - 500 [Skycoin subreddit](https://reddit.com/r/skycoinproject) 文章
-* 1000 SKY - 2500 [Skycoin subreddit](https://reddit.com/r/skycoinproject) 文章
 
 如果你有其它可以推广天空币的方法，而该方法应当得到奖励的话，请在Telegram频道里写下你的建议。
 [Skycoin Bounty Program Telegram Channel](https://t.me/skycoinbounty)

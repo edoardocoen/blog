@@ -92,8 +92,6 @@ Skycoin, Skywire meshnet, BBS, CXO 등에 대한 인포 그래픽.
 활동적인 커뮤니티 사용자를 위한 특별 보너스:
 
 * 10 SKY - 100 [스카이코인 하위reddit](https://reddit.com/r/skycoinproject) 게시물
-* 100 SKY - 500 [스카이코인 하위reddit](https://reddit.com/r/skycoinproject) 게시물
-* 1000 SKY - 2500 [스카이코인 하위reddit](https://reddit.com/r/skycoinproject) 게시물
 
 *만약 스카이코인 현상금 캠페인에 대해 다른 아이디어가 있다면, 텔레그램 채널에서 우리에게 제안해주십시오.*
 

@@ -169,4 +169,4 @@ for Consensus over P2P Network.
 *Read more:*
 
 * *[Skycoin Consensus Algorithm Whitepapers](https://www.skycoin.net/whitepapers)*
-* *[Obelisk The Skycoin Consensus Algorithm](/statement/obelisk-skycoin-consensus-algorithm/)*
+* *[Obelisk The Skycoin Consensus Algorithm](/statement/obelisk-the-skycoin-consensus-algorithm/)*

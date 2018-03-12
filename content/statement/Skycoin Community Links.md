@@ -31,7 +31,7 @@ Mailing List
 News Updates
 ------------
 
-* [Skycoin Blog](https://blog.skycoin.net)
+* [Skycoin Blog](https://www.skycoin.net/blog/)
 * [Skycoin Twitter](https://twitter.com/skycoinproject)
 * [Skycoin Reddit](https://reddit.com/r/skycoinproject)
 * [Skycoin Facebook](https://www.facebook.com/skycoinproject)

@@ -48,9 +48,8 @@ This solves the problem, that people are trading on dozens of coins and never wi
 ## Meshnet
 
 Meshnet is in version 12 and is passing unit and integration testing.
-- https://github.com/skycoin/skycoin/blob/master/src/mesh2/examples/integration2/integration2.go
-- https://github.com/skycoin/skycoin/tree/master/src/mesh2
-- https://github.com/skycoin/skycoin/tree/master/src/mesh3
+- https://github.com/skycoin/net
+- https://github.com/skycoin/skywire
 
 Pluggable transport is working.
 

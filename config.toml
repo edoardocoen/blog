@@ -1,7 +1,10 @@
-baseURL = "https://blog.skycoin.net/"
+baseURL = "https://www.skycoin.net/blog"
 languageCode = "en-us"
 title = "Skycoin Blog"
 defaultContentLanguage = "en"
+
+relativeURLs = true
+canonifyURLs = true
 
 googleAnalytics = "UA-105234182-1"
 #disqusShortname = ""

@@ -170,14 +170,15 @@ You could also build a file system on top of this type of computer
 Some of the modes of computations or systems are very general and I do not know what to use them for yet. There is a whole class of types of computation and data structures, besides the blockchain and they have not been implemented or classified yet.
 
 I found one type of data structure, that can be used for syncing workspaces or operating on shared data objects in a peer-to-peer manner. It reminds me of this
-- https://en.wikipedia.org/wiki/U-form
 
+- https://en.wikipedia.org/wiki/U-form
 - https://en.wikipedia.org/wiki/Tuple_space
-- https://en.wikipedia.org/wiki/Linda_(coordination_language)
+- [https://en.wikipedia.org/wiki/Linda_(coordination_language)](https://en.wikipedia.org/wiki/Linda_(coordination_language))
 
 One of them looks like the pi-calculus or some kind of distributed anti-aircraft defense system. Its a blackboard design pattern, which is primarily used for multiprocessors and aircraft defense systems.
+
 - https://en.wikipedia.org/wiki/Blackboard_system
-- https://en.wikipedia.org/wiki/Blackboard_(design_pattern)
+- [https://en.wikipedia.org/wiki/Blackboard_(design_pattern)](https://en.wikipedia.org/wiki/Blackboard_(design_pattern))
 
 The lambda-calculus is the algebra of procedural computation and the pi-calculus is the algebra of communication. There are some interesting implementations of this.
 

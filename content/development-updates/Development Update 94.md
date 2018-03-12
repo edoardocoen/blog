@@ -32,10 +32,12 @@ This is a major milestone for security.
 Bitcoin has had several bugs introduced (intentionally or not) by external dependencies, that would have allowed every node on the network to be taken our or a quarter of the total bitcoin stolen.
 
 See:
+
 - http://www.talosintel.com/reports/TALOS-2015-0035/
 - https://bitcoin.org/en/alert/2015-10-12-upnp-vulnerability
 
 For instance
+
 - heartbleed in the bitcoin merchant protocol from OpenSSL
 - the remote execution UPNP vulnerability introduced into bitcoind and enabled by default
 - the glibc DNS resolution remote code execution vulnerability
@@ -61,8 +63,9 @@ This is one of the most difficult parts.
 This is another algorithm that is similar. This part of the meshnet can be swapped out and its an area that will take years of research and testing and something that will need to be updated as better algorithms are developed.
 
 Multi Named VDHT Routing
-- https://www.newtolife.net/multi-named-vdht-routing.html
-- https://www.newtolife.net/experimenting-with-virtual-dht-routing.html
+
+- https://www.freedomlayer.org/multi-named-vdht-routing.html
+- https://www.freedomlayer.org/experimenting-with-virtual-dht-routing.html
 
 ![](http://i.imgur.com/8SXnMDz.png)
 
@@ -73,9 +76,11 @@ There is an efficient algorithm using ant colony optimization and a version usin
 ## Meshnet Adaption
 
 On the ground, people are creating their own ISPs and communication networks.
+
 - http://arstechnica.com/information-technology/2015/11/how-a-group-of-neighbors-created-their-own-internet-service/
 
 ## Global Survey of Free Networks
+
 - http://p2pfoundation.net/Global_Survey_of_Free_Networks
 
 I have researched all the tools and hardware they are using.
@@ -91,9 +96,11 @@ There is new radio equipment and software being released monthly now. We do not 
 - http://spectrum.ieee.org/geek-life/hands-on/softwaredefined-radio-part-ii
 
 ##### Proxygambit
+
 https://hackaday.com/2015/07/16/proxygambit-better-than-proxyham-takes-coffee-shop-wifi-global/
 https://hackaday.com/tag/proxyham/
 
 https://github.com/samyk/proxygambit
+
 - 150 Mbps+
 - +10 km range, line of sight

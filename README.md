@@ -3,7 +3,7 @@
 Skycoin Blog
 ============
 
-https://blog.skycoin.net/
+https://www.skycoin.net/blog/
 
 This blog uses [hugo](https://gohugo.io/) to generate a static website from markdown files.
 
@@ -31,7 +31,7 @@ Make sure that your posts compile without error. Check the formatting.
 
 Then, commit the changes and push.
 
-If there are no problems, then https://blog.skycoin.net/ will automatically update in a few minutes.
+If there are no problems, then https://www.skycoin.net/blog/ will automatically update in a few minutes.
 
 Translations
 ============

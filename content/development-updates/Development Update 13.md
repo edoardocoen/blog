@@ -13,16 +13,9 @@ description = "Release notes highlighting the current development behind Skycoin
 ## Summary:
 
 The "services" architecture prototype is done.
-Link: https://github.com/skycoin/skywire/blob/master/poolExample2.go
 
-##### Raw Socket/Connection Pool:
-https://github.com/skycoin/skywire/blob/master/poolExample0.go
-
-##### Connection Pool with Dispatcher Helper and message serialization/deserialization:
-https://github.com/skycoin/skywire/blob/master/poolExample1.go
-
-##### Services Architecture Prototype:
-https://github.com/skycoin/skywire/blob/master/poolExample2.go
+https://github.com/skycoin/skywire
+https://github.com/skycoin/net
 
 Each code example is more complex/higher level than the previous one.
 

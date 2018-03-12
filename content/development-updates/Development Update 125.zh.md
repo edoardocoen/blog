@@ -11,10 +11,12 @@ description = "Release notes highlighting the current development behind Skycoin
 +++
 
 ###### 区块浏览器基本完成. 查看GitHub.
-- [github.com/skycoin/skycoin](github.com/skycoin/skycoin)
+
+- [github.com/skycoin/skycoin](https://github.com/skycoin/skycoin)
 
 ###### 新的网站
-- [skycoin.net](skycoin.net)
+
+- [skycoin.net](https://www.skycoin.net)
 
 交易所API和自动化存取款功能已经测试了数月. 小的bug已经修复.
 - 我们以“讲故事”的方式阐明了天空币和比特币之间的差异，以及两者之间达成共识过程的不同之处.

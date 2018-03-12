@@ -72,11 +72,9 @@ Youtube видео (т.е. материалы видеоблогов) преим
 Особое вознаграждения для активных членов сообщества:
 
 * 10 SKY - за 100 постов в reddit в теме <a href="https://www.reddit.com/r/SkycoinProject/">Skycoin</a>
-* 100 SKY - за 500 постов в reddit в теме <a href="https://www.reddit.com/r/SkycoinProject/">Skycoin</a>
-* 1000 SKY - за 2500 постов в reddit в теме <a href="https://www.reddit.com/r/SkycoinProject/">Skycoin</a>
 
 Если у вас если другие идеи по продвижению Skycoin, для которых требуются награды, предлагайте их в Telegram канале.
 
-Оригинал статьи: https://blog.skycoin.net/statement/skycoin-bounty-program-1/
+Оригинал статьи: https://www.skycoin.net/blog/statement/skycoin-bounty-program-1/
 
 [Skycoin Bounty Program Telegram Channel](https://t.me/skycoinbounty)

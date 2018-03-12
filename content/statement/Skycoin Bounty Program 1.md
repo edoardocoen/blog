@@ -10,22 +10,6 @@ categories = [
 ]
 +++
 
-*Updated August 30, 2017. Remove GIF bounties.*
-
-*Updated again August 29, 2017. Added translation bounties.*
-
-*Updated August 29, 2017. Added reddit activity bonus. Increased GIF bounty to 20.*
-
-*Updated September 3, 2017. Added French to translation bounties.*
-
-*Updated September 12, 2017. Increase infographics bounty reward to 30.*
-
-*Updated November 8, 2017. Graphics and video bounties are handled on a case-per-case basis in the bounty channel.*
-
-*Update December 7, 2017. Add Português*
-
-*Update December 10, 2017. Add Italiano*
-
 Apply for rewards in the [Skycoin Bounty Program Telegram Channel](https://t.me/skycoinbounty)
 
 ## Bounty Categories
@@ -92,9 +76,7 @@ If something appears to be done in bad faith we may reject or reduce the reward 
 
 Special bonus for active community users:
 
-* 10 SKY - 100 [Skycoin subreddit](https://reddit.com/r/skycoinproject) posts
-* 100 SKY - 500 [Skycoin subreddit](https://reddit.com/r/skycoinproject) posts
-* 1000 SKY - 2500 [Skycoin subreddit](https://reddit.com/r/skycoinproject) posts
+* 10 SKY per 100 [Skycoin subreddit](https://reddit.com/r/skycoinproject) posts
 
 *If you have other ideas for promoting Skycoin that deserve a bounty, please suggest them in the Telegram channel.*
 

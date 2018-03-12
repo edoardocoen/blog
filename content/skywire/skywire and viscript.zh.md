@@ -14,7 +14,7 @@ categories = [
 
 ### Viscript
 
-[Viscript](https://github.com/skycoin/viscript)是一个跨平台脚本语言，用于应用程序启动器和集群管理。 它有一个基于信号库的信号服务器，因此可以管理信号客户端，如节点和Skywire中的组件。 它可以在GUI模式或无头模式(注：无头模式意味没有显示器、键盘、鼠标等）下运行。
+[Viscript](https://github.com/skycoin/viscript) 是一个跨平台脚本语言，用于应用程序启动器和集群管理。 它有一个基于信号库的信号服务器，因此可以管理信号客户端，如节点和Skywire中的组件。 它可以在GUI模式或无头模式(注：无头模式意味没有显示器、键盘、鼠标等）下运行。
 
 
 #### Viscript GUI Screenshot:

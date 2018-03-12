@@ -45,8 +45,6 @@ So far, most users are only using "send" and there has not been widespread usage
 
 ## Developer Positions:
 
-Skycoin developers are exhausted.  We need developers for https://github.com/skycoin/darknet
-
 1. We need a golang wrapper around ifconfig for controlling wifi dongles and connecting/disconnecting. Should scan for wifi connections, return list. Should have function for connecting and disconnecting to network. Should return information about signal strength and speed. Bonus points if it supports adhoc connections.
 2. We need golang ChaCha20 wrapper
 3. We need library that connects to peers using sykcoin/gnet (connection pool). Each peer has list of hashes and hashes are ordered. Each hash  corresponds to data. Each peer should should poll and download any new hash and from peers, that it doesnt have.

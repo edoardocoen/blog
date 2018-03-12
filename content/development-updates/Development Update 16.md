@@ -16,7 +16,7 @@ description = "Release notes highlighting the current development behind Skycoin
 ## Summary:
 - The new developers for the meshnet are setup and working now.
 - The source routing implementation is almost done.
-- wifi controller library is working and just needs adhoc mode support and some bug fixes. https://github.com/skycoin/darknet/commit/21e08943e753d985d3f30f5dee1022f027831c3d
+- wifi controller library is working and just needs adhoc mode support and some bug fixes.
 - Last gui changes to wallet are being made. One of the coin developers who was on vacation for past two weeks is coming back to project.
 - First draft the of Obelisk white paper is done. Will be on Github soon.
 

@@ -9,7 +9,9 @@ categories = [
 ]
 description = "Release notes highlighting the current development behind Skycoin."
 +++
+
 ##### These are the things we need to fix for :
+
 - Launch
 - Exchange listing
 - There is a bug, where if you are running a skycoin node that starts with computer boot and you unplug the power to the server, there is a chance that the node wont start up again (corrupted files on disc, very annoying). However, we rename files before writing to ensure there are backups of the previous version, so
@@ -17,12 +19,13 @@ description = "Release notes highlighting the current development behind Skycoin
 - We need a database (sqllite?) for storing the block hash, previous hash and block depth and then key-value store for storing the block binary blob.
 - A transaction database, to run JSON history API. Also blockchain explorer in wallet (no calls to remote servers, to leak data about what addresses or history you are querying or what coins might be in your wallet).
 
-- The website (skycoin.net). More description. White papers. Documentation on protocols, gmaxwells coinjoin, server API, thin client, consensus network, meshnet components, etc... We need to write hundreds of pages of documentation.
+- The website [skycoin.net](https://www.skycoin.net). More description. White papers. Documentation on protocols, gmaxwells coinjoin, server API, thin client, consensus network, meshnet components, etc... We need to write hundreds of pages of documentation.
 - Enable HTTPS on server. Force HTTPS. Force ChaCha20-Poly1305. Also do binary distribution over bitorrent (higher security than HTTPS, but may be using md5 hashes? have to check). IPFS is probably best, but does not have the installed base of bitorrent. HTTPS will not protect against state sponsored attacked, because of timing channel attacks for recovering private keys, on any webserver running OpenSSL based HTTPs/TLS. Additionally attacks/govt mandated backdoors at certificate authority level. We will eventually have an internal distribution network (based upon skycoin content addressable storage, running on top of meshnet).
 
 - Consensus. In progress. The full consensus network should be done soon. The prototypes were in python and we had to write a new version from scratch in Golang. /src/visor needs to be refactored a bit, in order to support the new mechanism.
 
 ##### So:
+
 - APIs for exchanges to interact with the skycoin wallet
 - Skycoin website
 - Blockchain storage for scaling to large number of blocks
@@ -47,6 +50,7 @@ Then we are 100% ready for Skycoin exchange listing.
 I am having trouble explaining what we are doing or why we are doing it.
 
 ##### The "Coin" is:
+
 - A new block chain
 - A new crypto library
 - A new consensus algorithm (non-POW, non-POS), based upon Ben-Os and new crypto/consensus research (no miners)
@@ -85,6 +89,7 @@ I am having trouble explaining what we are doing or why we are doing it.
 Once we have the base layers working and libraries and networking, then we need applications. We are going from one application (the wallet), to multiple applications (messaging, exchange, vpn, meshnet, etc).
 
 ##### We almost have standardization of:
+
 - Containerizing reading/writing to disc for a given application
 - standardization of how application renders GUI (JSON API, angular, typescript)
 - Containerizing networking (only through meshnet, connection by pubkey)
@@ -95,6 +100,7 @@ We have no thought through, how we are going to distribute and support multiple 
 At that point, we are almost at an "app store" level. Or atleast "package manager" level. Where people will be able to write open source apps in golang, on top of a limited set of libraries (the skycoin networking, crypto, the method of display and generating a GUI).
 
 ##### For instance:
+
 - https://blog.cloudflare.com/building-the-simplest-go-static-analysis-tool/
 - https://godoc.org/golang.org/x/tools/go/loader
 
@@ -107,6 +113,7 @@ In the long term, we have our own application programming language in developmen
 ---
 
 ##### In general there are:
+
 - libraries needed for implementing other libraries or applications
 - applications that increase Skycoin capital inflows directly (can be monetized)
 - application that increase Skycoin user base
@@ -116,6 +123,7 @@ In the long term, we have our own application programming language in developmen
 Currently I think the primary development priorities are:
 
 ##### Exchange Listing: (requirements)
+
 - Consensus integration
 - Scaling blockchain storage (blockchain database)
 - Transaction history API and blockchain explorer API
@@ -125,10 +133,12 @@ Currently I think the primary development priorities are:
 Then parallel priority for development is:
 
 ##### Meshnet:
+
 - Get this working ASAP
 - Pluggable transport, refactoring, cleanup, node manager, analytics, network topology and route service
 
 ##### Then secondary priorities are:
+
 - Multicoin API
 - Internal exchange ( github.com/skycoin/skycoin-exchange)
 - Applications over the new network (social media, content addressable storage/IPFS, messaging, self hosted applications, etc...)
@@ -136,11 +146,13 @@ Then parallel priority for development is:
 - Improving project management, number of developers and the number of projects we can have in progress at once
 
 ##### Then tertiary priorities are:
+
 - Own programming language (with metacircular interpreter and mathematical determinism, for application development and blockchain scripting for third party blockchains).
 - App store? figure out how to deal with proliferation of user facing applications
 - Metrics and graphs and visualizations for consensus network
 - Speculative research projects
 
 ##### So doing the small changes and refactor for exchange listing, is #1 thing to get developers on.
+
 - I did not notice these things were missing, until the Skycoin/Bitcoin internal exchange was done and we were going through integrating it. You do not notice that an API function is not there, until you go to use it.
 - We are saving all blocks to disc, everytime we save, even if the block is already on disc. Because we are gobbing all the blocks. This needs to be fixed, because will slow down severely once we have a new block every ten seconds.

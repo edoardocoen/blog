@@ -15,7 +15,7 @@ categories = [
 
 On corporate social media, you’re the product. A company controls your data. They sell it to advertisers and store it on their servers. Once you make a post, it’s theirs – forever. You have no control over privacy, technology, or even your own identity. Why should we settle for that?
 
-It’s time for a social media revolution. Skycoin is bringing social media back to you, the user. We’re excited to announce the alpha launch of Skycoin BBS: the first distributed social media platform in the Skycoin ecosystem. 
+It’s time for a social media revolution. Skycoin is bringing social media back to you, the user. We’re excited to announce the alpha launch of Skycoin BBS: the first distributed social media platform in the Skycoin ecosystem.
 
 Skycoin BBS is a peer-to-peer replicated social media application built on immutable data structures (CXO) on top of the Skycoin platform. Planned features include:
 
@@ -30,19 +30,19 @@ Ready to join? Get started with the Skycoin BBS at: https://www.skycoin.net/down
 
 Read about the development of Skycoin BBS and chat with the developers: https://t.me/skycoinbbs.
 
-Follow development updates: https://blog.skycoin.net/tags/bbs/.
+Follow development updates: https://www.skycoin.net/blog/tags/bbs/.
 
-Check out the technical aspects of Skycoin BBS: https://blog.skycoin.net/bbs/bbs-development-update-1/.
+Check out the technical aspects of Skycoin BBS: https://www.skycoin.net/blog/bbs/bbs-development-update-1/.
 
 Track coding commits at the Skycoin Github repository: https://github.com/skycoin/bbs.
 
 Get a list of nodes to connect to and boards to subscribe to: https://t.me/skycoinbbshosting.
 
-Watch the Skycoin BBS platform in action in the Development Showcase YouTube Videos: https://www.youtube.com/watch?v=6ZqwgefYauU. 
+Watch the Skycoin BBS platform in action in the Development Showcase YouTube Videos: https://www.youtube.com/watch?v=6ZqwgefYauU.
 
 ---
 
-## Our Vision: 
+## Our Vision:
 Skycoin BBS is a peer-to-peer replicated social media application, built upon immutable data structures (CXO) on top of the Skycoin platform. It’s a communication platform for users, by users. Skycoin BBS is social media done right.
 
 This new web application is one of the first to be implemented using the Skycoin ecosystem. Skycoin decentralizes the internet, encrypting protocols by default. Since Skycoin has no central server, your data isn’t controlled by any central authority. You retain your privacy and freedom.

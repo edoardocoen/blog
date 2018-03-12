@@ -10,7 +10,7 @@ categories = [
 ]
 +++
 
-*Actualizado el 29 de Agosto, 2017. Se ha añadido la bonificación por 
+*Actualizado el 29 de Agosto, 2017. Se ha añadido la bonificación por
 actividad en Reddit. Se ha incrementado la recompensa por GIFs a 20 SKY.*
 
 *Actualizado de nuevo el 29 de Agosto, 2017. Añadidas recompensas por traducciones.*
@@ -27,11 +27,11 @@ Solicita las recompensas en el [Canal de Telegram del Programa de Recompensas de
 
 <!-- MarkdownTOC autolink="true" bracket="round" -->
 
-- [Gráficos](#gráficos)
+- [Gráficos](#gr%C3%A1ficos)
 - [Videos](#videos)
 - [Traducciones](#traducciones)
-- [Redacción](#redacción)
-- [Participación en redes sociales](#participación-en-redes-sociales)
+- [Redacción](#redacci%C3%B3n)
+- [Participación en redes sociales](#participaci%C3%B3n-en-redes-sociales)
 
 <!-- /MarkdownTOC -->
 
@@ -43,12 +43,12 @@ Los activos de marca (logos, color) están en la [página de descargas](https://
 
 * 30 SKY cada uno.
 
-## Videos 
+## Videos
 
 Videos de Youtube (ej. material tipo vlog) sobre Skycoin en general.
 
 * 1 SKY por cada 1000 vistas
-* Deben ser de una cuenta de youtube pertinente (ej. relacionada a criptomonedas) 
+* Deben ser de una cuenta de youtube pertinente (ej. relacionada a criptomonedas)
 * El video debe ser contenido original (o contenido derivado suficientemente modificado).
 
 Videos Promocionales (ej. describiendo la tecnología de Skycoin)
@@ -79,7 +79,7 @@ En la parte inferior de cada publicación en inglés, se muestra la recompensa p
 
 La publicación no debe estar ya traducida.
 
-Si una publicación ya está traducida pero encuentras errores o mejoras, 
+Si una publicación ya está traducida pero encuentras errores o mejoras,
 podemos otorgarte una pequeña recompensa, según corresponda.
 
 Uno o dos hablantes nativos del idioma deben revisar la traducción para verificar su calidad.
@@ -93,16 +93,14 @@ Publicaciones de blog, artículos.
 * Contáctenos con anticipación hasta que establezcamos una forma de valorar el contenido escrito.
 
 Sea sincero con el contenido producido para el programa de recompensas.
-Si algo aparenta ser hecho en mala fe, podemos rechazar o reducir la recompensa 
+Si algo aparenta ser hecho en mala fe, podemos rechazar o reducir la recompensa
 (por ejemplo, vistas de youtube falsas o infografías descuidadas).
 
 ## Participación en redes sociales
 
 Bonificación especial para usuarios activos de la comunidad:
 
-* 10 SKY - 100 publicaciones en el [subreddit de Skycoin](https://reddit.com/r/skycoinproject) 
-* 100 SKY - 500 publicaciones en el [subreddit de Skycoin](https://reddit.com/r/skycoinproject)
-* 1000 SKY - 2500 publicaciones en el[subreddit de Skycoin](https://reddit.com/r/skycoinproject) 
+* 10 SKY - 100 publicaciones en el [subreddit de Skycoin](https://reddit.com/r/skycoinproject)
 
 *Si tienes otras ideas para promocionar Skycoin que merezcan una recompensa, sugiérelas en el canal de Telegram.*
 

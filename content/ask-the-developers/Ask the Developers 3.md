@@ -124,8 +124,6 @@ Then Skycoin is focusing on applications that drive adaption and utilize the coi
 
 Another example, Ethereum offers the ability to do computations in the blockchain and the Skycoin wire protocol is gradually adding support for "personal blockchains". So instead of having one global blockchain, each person can have their own blockchain, which is cryptographically secured and which the people who need the chain replicate. So it may end up making more sense to embed Ethereum's contract system and scripting language in "local" chains instead a single global chain (which can become bloated) and the moving assets between chains.  This could be the basis for an open transactions style crypto-securities system.
 
-This is an example of a personal blockchain: https://github.com/skycoin/skywire/blob/master/chaintest.go
-
 You generate a public key and only the person with the private key can mint new blocks, but everyone can replicate the chain if they know the hash of the public key. The block body can be any array of bytes. This is a major set forward for making it easy for developers to create new blockchain based applications.
 
 Skycoin is not just a coin, but a set of libraries and standards.
@@ -156,8 +154,6 @@ We are able to expose exchanges as a Skycoin "service" in the wire protocol. The
 >. What development time did you plan for all this?
 
 Personal blockchains are done.
-- https://github.com/skycoin/skywire/blob/master/chaintest.go
-- https://github.com/skycoin/skywire/tree/master/src/hashchain
 
 The only thing left is the wire protocol for replicating the chain.
 

@@ -29,19 +29,19 @@ Bist du bereit einzusteigen? Mache deine ersten Schritte mit Skycoin BBS hier: h
 
 Lese mehr über die Entwicklung von Skycoin BBS und chatte mit den Entwicklern: https://t.me/skycoinbbs
 
-Verfolge Entwicklungsupdates: https://blog.skycoin.net/tags/bbs/
+Verfolge Entwicklungsupdates: https://www.skycoin.net/blog/tags/bbs/
 
-Wirf einen Blick auf die technischen Aspekte von Skycoin BBS: https://blog.skycoin.net/bbs/bbs-development-update-1/
+Wirf einen Blick auf die technischen Aspekte von Skycoin BBS: https://www.skycoin.net/blog/bbs/bbs-development-update-1/
 
 Verfolge Kontributionen (commits) von Code im Skycoin Github: https://github.com/skycoin/bbs
 
 Erhalte eine Liste von Knoten (nodes) mit denen du dich verbinden kannst und Foren, die du abonnieren kannst: https://t.me/skycoinbbshosting
 
-Schau dir das Entwicklungsvorzeigeprojekt auf Youtube an und erlebe die Skycoin BBS Plattform in Aktion: https://www.youtube.com/watch?v=6ZqwgefYauU 
+Schau dir das Entwicklungsvorzeigeprojekt auf Youtube an und erlebe die Skycoin BBS Plattform in Aktion: https://www.youtube.com/watch?v=6ZqwgefYauU
 
 ---
 
-## Unsere Vision: 
+## Unsere Vision:
 Skycoin BBS ist eine replizierte Peer-to-Peer (P2P) Social Media Anwendung gebaut mit unveränderlichen Datenstrukturen (CXO) aufbauend auf der Skycoin Plattform. Es ist eine Kommunikationsplattform von Nutzern für Nutzer. Skycoin BSS ist eine soziale Medienplattform die richtig gemacht wurde.
 
 Diese neue Web-Applikation ist eine der ersten, die das Skycoin Ökosystem nutzen wird. Skycoin dezentralisiert das Internet und verschlüsselt automatisch Protokolle. Da Skycoin keinen zentralen Server nutzt, werden deine Daten nicht von einer zentralen Authorität kontrolliert. Du behältst deine Privatsphäre und deine Freiheit.
@@ -54,9 +54,9 @@ Mit Skycoin BBS kannst du alle Vorteile einer Social Media Plattform genießen o
 
 Auf Skycoin BBS ist das Abstimmen über und die Kuration von Beiträgen transparent. Die Nutzergemeinschaft kann Daten mittels Cryptographie verifizieren, was es einfach macht Wahlmanipulationen zu erkennen. Nutzer können andere Nutzer als vertrauenswürdig, oder als Spammer markieren. Eine spezielle Liste für das Blockieren von Nutzern wird es ebenso geben.
 
-Skycoin BBS beschützt sich vor Bots. Nutzer können Bots als Spammer markieren und andere Nutzer davon abhalten ihnen zu folgen. Auch wenn Bots untereinander und füreinander stimmen können, wird dies keinen Unterschied machen, da Nutzer sie nicht als vertrauenswürdig markieren oder ihnen folgen werden. Da die Bots keine Follower haben, kann ein Algorithmus sie verstecken und ihre Beiträge nicht anzeigen. 
+Skycoin BBS beschützt sich vor Bots. Nutzer können Bots als Spammer markieren und andere Nutzer davon abhalten ihnen zu folgen. Auch wenn Bots untereinander und füreinander stimmen können, wird dies keinen Unterschied machen, da Nutzer sie nicht als vertrauenswürdig markieren oder ihnen folgen werden. Da die Bots keine Follower haben, kann ein Algorithmus sie verstecken und ihre Beiträge nicht anzeigen.
 
-Die Vorteile von Skycoin BBS gehen über die Privatsphäre der Nutzer und die Kontrolle über die eigenen Daten hinaus. Skycoin BBS entfernt außerdem die Gefahr unternehmerischer oder institutioneller Beeinflussung. 
+Die Vorteile von Skycoin BBS gehen über die Privatsphäre der Nutzer und die Kontrolle über die eigenen Daten hinaus. Skycoin BBS entfernt außerdem die Gefahr unternehmerischer oder institutioneller Beeinflussung.
 Im Gegensatz zu den meisten anderen Social Media Netzwerken ist Skycoin BBS dezentralisiert. Es gibt keinen zentralen Server der abgeschaltet werden kann und keinen Weg für eine einzelne Organisation die Kommunikation zu überwachen. Jedes ausgehende Datenpaket kann mit einem Nutzer kommunizieren, der die Nachricht weiterreichen kann. Dieses Peer-to-Peer (Nutzer-zu-Nutzer) System schützt Nutzer vor Drittparteien und Authoritäten die Kontrolle erstreben.
 
 Skycoin BBS befindet sich zurzeit in der Alpha Phase. Während wir an dieser neuen Social Media Plattform arbeiten kann es zu Bugs und Datenverlust kommen. Du kannst uns dabei helfen Skycoin BBS zu verbessern, indem du diese Vorkomnisse meldest, wenn sie auftreten sollten. Mit deinem Feedback können wir gemeinsam Skycoin BBS zu einer revolutionären Entwicklung im Bereich der sozialen Medien machen.

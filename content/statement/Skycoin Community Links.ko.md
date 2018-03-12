@@ -30,7 +30,7 @@ Mailing List
 새로운 뉴스 업데이트
 ------------
 
-* [스카이코인 블로그](https://blog.skycoin.net)
+* [스카이코인 블로그](https://www.skycoin.net/blog/)
 * [스카이코인 트위터](https://twitter.com/skycoinproject)
 * [스카이코인 래딧](https://reddit.com/r/skycoinproject)
 * [스카이코인 Facebook](https://www.facebook.com/skycoinproject)

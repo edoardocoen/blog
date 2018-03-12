@@ -90,8 +90,6 @@ categories = [
 Ειδικά μπόνους για ενεργούς χρήστες της κοινότητας:
 
 * 10 SKY - 100 [Skycoin subreddit](https://reddit.com/r/skycoinproject) Δημοσιεύσεις
-* 100 SKY - 500 [Skycoin subreddit](https://reddit.com/r/skycoinproject) Δημοσιεύσεις
-* 1000 SKY - 2500 [Skycoin subreddit](https://reddit.com/r/skycoinproject) Δημοσιεύσεις
 
 *Εφόσον βρίσκεστε σε θέση να μας προτείνετε και άλλες ιδέες για την προώθηση του Skycoin που ενδεχομένως να αξίζουν μια ανταμοιβή, παρακαλούμε να μας τις προωθήσετε στο κανάλι μας στο Telegram*.*
 

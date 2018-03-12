@@ -71,9 +71,9 @@ This is for communication during emergency at low bit rate. Emergency communicat
 
 I do not know if the bandwidth will be 5 bits/second to 300 bits/second. Up to 500 Kb/s
 
-http://hackaday.com/2013/02/28/hacking-a-ham-radio/
-http://sdrformariners.blogspot.hk/p/blog-page_28.html
-http://sdrformariners.blogspot.hk/2014/02/shootout-shortwave-for-50-dollars.html
+- http://hackaday.com/2013/02/28/hacking-a-ham-radio/
+- http://www.radioforeveryone.com/p/blog-page_28.html
+- http://www.radioforeveryone.com/2014/02/shootout-shortwave-for-50-dollars.html
 
 I need system that is just plug and play and takes less than five seconds to start working. Has to be commercial parts and ready for shipment. Should be able to update the software remotely with the above system. The faster this gets built, the faster the bugs can be worked out and hardware improved.
 

@@ -31,7 +31,7 @@ Lista de Correo
 Nuevas Actualizaciones
 ------------
 
-* [Blog de Skycoin](https://blog.skycoin.net)
+* [Blog de Skycoin](https://www.skycoin.net/blog/)
 * [Twitter de Skycoin](https://twitter.com/skycoinproject)
 * [Reddit de Skycoin](https://reddit.com/r/skycoinproject)
 * [Facebook de Skycoin](https://www.facebook.com/skycoinproject)

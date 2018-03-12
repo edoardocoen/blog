@@ -17,8 +17,8 @@ We are launching our own post blockchain social platform. Starting with an immut
 
 We started this on friday and we almost have a decentralized text only version of 4chan working, five days later.
 
-- https://godoc.org/github.com/skycoin/cxo/schema
-- https://godoc.org/github.com/skycoin/cxo/bbs
+- https://godoc.org/github.com/skycoin/cxo
+- https://godoc.org/github.com/skycoin/bbs
 
 - Each object has a schema and is a struct (with basic set of atomic types)
 - Each object has a canonical serialization as a byte string
